@@ -19,12 +19,7 @@ pipeline {
         stage('Deliver') {
             steps {
                 //sh './jenkins/scripts/deliver.sh'
-                echo 'skipping Deliver step, deliver.sh not working locallyd!'
-            }
-        }
-        stage('Complete') {
-            steps {
-                echo 'Job Complete!'
+                echo 'skipping Deliver step, deliver.sh not working locally, done!'
             }
         }
     }
